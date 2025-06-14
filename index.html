@@ -25,62 +25,7 @@
 <body class="">
 
     <div id="bottomToTopScroll"></div>
-    <nav class="fixed top-0 left-0 w-full bg-[#10243b] z-40">
-        <div class="max-w-7xl mx-auto flex justify-between items-center w-full lg:p-5 p-3 lg:h-24 h-20">
-            <a data-aos="fade-right" href="/index.html" class="flex items-center justify-center lg:justify-start">
-                <img src="/docs/assets/images/syndesislogo.png" class="lg:h-24 h-12" alt="logo">
-            </a>
-            <div class="flex items-center gap-10">
-                <div class="lg:flex items-center gap-10 hidden">
-                    <ul id="navbarLinks" data-aos="fade-left" class="lg:flex hidden items-center text-zinc-300 gap-10">
-                        <li><a id="nav-home" href="/index.html"
-                                class="hover:text-[#fff] navUnderLineActive text-[#fff]  transition-all duration-500">Home</a>
-                        </li>
-                        <li><a id="nav-story" href="#"
-                                class="hover:text-[#fff] navUnderLine transition-all duration-500">About </a></li>
-                        <li><a id="nav-gallery" href="#"
-                                class="hover:text-[#fff] navUnderLine transition-all duration-500">Videos</a></li>
-                        <li><a id="nav-hours" href="#"
-                                class="hover:text-[#fff] navUnderLine transition-all duration-500">Services</a>
-                        </li>
-                        <li><a id="nav-menu" href="#"
-                                class="hover:text-[#fff] navUnderLine transition-all duration-500">Inquiries</a></li>
-                        <li><a id="nav-events" href="#"
-                                class="hover:text-[#fff] navUnderLine transition-all duration-500">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <i id="mobileMenuBtn" class="fa-solid text-zinc-800 fa-bars lg:!hidden text-2xl cursor-pointer mr-2"></i>
-        </div>
-    </nav>
-
-    <div id="mobileMenu"
-        class="fixed left-0 top-0 bg-white w-0 overflow-hidden h-screen z-50 transition-all duration-500">
-        <div class="flex items-end justify-end p-5">
-            <i class="fa-solid mobileMenuCloseBtn fa-x z-50 text-zinc-800 text-xl cursor-pointer"></i>
-        </div>
-        <div class="p-6">
-            <ul class="flex relative z-50 text-zinc-800 flex-col gap-7">
-                <li><a id="nav-home" href="/index.html"
-                        class="hover:text-[#000] transition-all duration-500">Home</a>
-                </li>
-                <li><a id="nav-story" href="#" class="hover:text-[#000] transition-all duration-500">About
-                    </a></li>
-                <li><a id="nav-gallery" href="#"
-                        class="hover:text-[#000] transition-all duration-500">Videos</a></li>
-                <li><a id="nav-hours" href="#"
-                        class="hover:text-[#000] transition-all duration-500">Services</a>
-                </li>
-                <li><a id="nav-menu" href="#"
-                        class="hover:text-[#000] transition-all duration-500">Inquiries</a></li>
-                <li><a id="nav-events" href="#"
-                        class="hover:text-[#000] transition-all duration-500">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="lg:h-24 h-20"></div>
+    <div id="navbar"></div>
 
     <section class="homeBanner md:min-h-[calc(100vh-6rem)] min-h-[calc(100vh-5rem)] bg-center bg-cover">
         <div
@@ -151,10 +96,10 @@
 
     <section class="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
 
-        <h2 data-aos="fade-up"  class="text-center font-semibold text-3xl md:text-4xl text-zinc-900">Our Services</h2>
+        <h2 data-aos="fade-up" class="text-center font-semibold text-3xl md:text-4xl text-zinc-900">Our Services</h2>
 
         <div class="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 md:mt-12 mt-8">
-            <div data-aos="fade-up" 
+            <div data-aos="fade-up"
                 class="relative border border-solid border-gray-200 rounded-2xl p-4 transition-all duration-500 xl:p-7">
                 <div class=" mb-6 ">
                     <img src="/docs/assets/images/vulnerability.png" class="h-16 opacity-80" alt="">
@@ -170,7 +115,7 @@
                     More <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-            <div data-aos="fade-up"  data-aos-delay="200"
+            <div data-aos="fade-up" data-aos-delay="200"
                 class="relative border border-solid border-gray-200 rounded-2xl p-4 transition-all duration-500 xl:p-7">
                 <div class=" mb-6 ">
                     <img src="/docs/assets/images/penetration-testing.png" class="h-16 opacity-80" alt="">
@@ -187,7 +132,7 @@
                     More <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-            <div data-aos="fade-up"  data-aos-delay="400"
+            <div data-aos="fade-up" data-aos-delay="400"
                 class="relative border border-solid border-gray-200 rounded-2xl p-4 transition-all duration-500 xl:p-7">
                 <div class=" mb-6 ">
                     <img src="/docs/assets/images/technical-support.png" class="h-16 opacity-80" alt="">
@@ -223,7 +168,7 @@
                     More <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-            <div data-aos="fade-up"  data-aos-delay="200"
+            <div data-aos="fade-up" data-aos-delay="200"
                 class="relative border border-solid border-gray-200 rounded-2xl p-4 transition-all duration-500 xl:p-7">
                 <div class=" mb-6 ">
                     <img src="/docs/assets/images/processor.png" class="h-16 opacity-80" alt="">
@@ -243,7 +188,7 @@
                     More <i class="fa-solid fa-arrow-right"></i>
                 </a>
             </div>
-            <div data-aos="fade-up"  data-aos-delay="400"
+            <div data-aos="fade-up" data-aos-delay="400"
                 class="relative border border-solid border-gray-200 rounded-2xl p-4 transition-all duration-500 xl:p-7">
                 <div class=" mb-6 ">
                     <img src="/docs/assets/images/briefcase.png" class="h-16 opacity-80" alt="">
@@ -266,11 +211,13 @@
 
     <section class="w-full cybersecurity p-5 md:py-28 py-20 md:mt-16 mt-10">
         <div class="max-w-4xl text-center w-full mx-auto">
-            <h2 data-aos="fade-up"  class="text-center leading-tight font-semibold text-3xl md:text-5xl text-zinc-100">Defining The Next
+            <h2 data-aos="fade-up" class="text-center leading-tight font-semibold text-3xl md:text-5xl text-zinc-100">
+                Defining The Next
                 Generation
                 of Cybersecurity
             </h2>
-            <p data-aos="fade-up"  class="text-zinc-300 text-lg mt-5">Strong Crypto Innovations delivers exceptional cybersecurity testing
+            <p data-aos="fade-up" class="text-zinc-300 text-lg mt-5">Strong Crypto Innovations delivers exceptional
+                cybersecurity testing
                 to reduce risks and enhance
                 resilience through expert analysis and strategic recommendations.
             </p>
@@ -279,18 +226,20 @@
 
     <section class="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
 
-        <h2 data-aos="fade-up"  class="text-center max-w-2xl md:leading-tight mx-auto font-semibold text-3xl md:text-4xl text-zinc-900">
+        <h2 data-aos="fade-up"
+            class="text-center max-w-2xl md:leading-tight mx-auto font-semibold text-3xl md:text-4xl text-zinc-900">
             Security Solutions for
             Highly Regulated Industries
         </h2>
 
-        <p data-aos="fade-up"  class="text-zinc-600 mt-6  text-center max-w-3xl mx-auto">Partnering with the us federal government and
+        <p data-aos="fade-up" class="text-zinc-600 mt-6  text-center max-w-3xl mx-auto">Partnering with the us federal
+            government and
             fortune 500 clients to secure the most complex, highly
             regulated environments.
         </p>
 
         <div class="grid md:grid-cols-2 grid-cols-1 gap-5 md:mt-16 mt-8">
-            <div data-aos="fade-up" 
+            <div data-aos="fade-up"
                 class="relative items-center border border-solid border-gray-200 rounded-2xl transition-all duration-500 grid md:grid-cols-3 grid-cols-1">
                 <img src="/docs/assets/images/image (1).jpg" alt="Card image"
                     class="h-full w-full rounded-2xl object-cover" />
@@ -322,7 +271,7 @@
                     </ul>
                 </div>
             </div>
-            <div data-aos="fade-up" 
+            <div data-aos="fade-up"
                 class="relative items-center border border-solid border-gray-200 rounded-2xl transition-all duration-500 grid md:grid-cols-3 grid-cols-1">
                 <img src="/docs/assets/images/image (3).jpg" alt="Card image"
                     class="h-full w-full rounded-2xl object-cover" />
@@ -354,7 +303,7 @@
                     </ul>
                 </div>
             </div>
-            <div data-aos="fade-up" 
+            <div data-aos="fade-up"
                 class="relative  items-center border border-solid border-gray-200 rounded-2xl transition-all duration-500 grid md:grid-cols-3 grid-cols-1">
                 <img src="/docs/assets/images/image (5).jpg" alt="Card image"
                     class="h-full w-full rounded-2xl object-cover" />
@@ -376,10 +325,12 @@
 
     <section class="w-full bg-zinc-900 p-5 md:py-28 py-20 md:mt-16 mt-10">
         <div class="max-w-4xl  w-full mx-auto">
-            <h2 data-aos="fade-up"  class="text-center leading-tight font-semibold text-3xl md:text-5xl text-zinc-100">Meet Our Elite
+            <h2 data-aos="fade-up" class="text-center leading-tight font-semibold text-3xl md:text-5xl text-zinc-100">
+                Meet Our Elite
                 Security Team
             </h2>
-            <p data-aos="fade-up"  class="text-zinc-300 text-center text-lg mt-4">With 17 years in business and 60 years of experience, our
+            <p data-aos="fade-up" class="text-zinc-300 text-center text-lg mt-4">With 17 years in business and 60 years
+                of experience, our
                 team holds
                 dozens of CVEs and 40 certifications. Lead by disctinguished Giac security experts (GSE) we set the
                 standard in modern cybersecurity
@@ -387,7 +338,7 @@
 
             <div class="grid md:grid-cols-2 grid-cols-1 gap-10 md:mt-14 mt-8">
 
-                <div data-aos="fade-up"  class="w-full bg-zinc-100">
+                <div data-aos="fade-up" class="w-full bg-zinc-100">
                     <img src="/docs/assets/images/karl.jpg" class="w-full object-cover md:h-80 h-60" alt="">
                     <div class="p-4 pb-8">
                         <h2 class="font-semibold text-2xl">Alex Fry</h2>
@@ -397,7 +348,7 @@
                             over 30 certifications in information technology, security and privacy.</p>
                     </div>
                 </div>
-                <div data-aos="fade-up"  data-aos-delay="200" class="w-full bg-zinc-100">
+                <div data-aos="fade-up" data-aos-delay="200" class="w-full bg-zinc-100">
                     <img src="/docs/assets/images/karl.jpg" class="w-full object-cover md:h-80 h-60" alt="">
                     <div class="p-4 pb-8">
                         <h2 class="font-semibold text-2xl">Brett Ewing</h2>
@@ -410,7 +361,7 @@
 
             </div>
 
-            <div data-aos="fade-up"  class="flex items-center justify-center">
+            <div data-aos="fade-up" class="flex items-center justify-center">
 
                 <a href=""
                     class="block text-center bg-[#10243b] text-white px-10 py-3 rounded-lg md:mt-10 mt-6 transition-all duration-500 hover:opacity-80 font-medium">
@@ -424,21 +375,23 @@
 
     <section class="max-w-7xl w-full mx-auto p-5 md:mt-16 mt-10">
 
-        <h2 data-aos="fade-up"  class="text-center max-w-2xl md:leading-tight mx-auto font-semibold text-3xl md:text-4xl text-zinc-900">
+        <h2 data-aos="fade-up"
+            class="text-center max-w-2xl md:leading-tight mx-auto font-semibold text-3xl md:text-4xl text-zinc-900">
             The Strong Crypto Difference
         </h2>
 
-        <p data-aos="fade-up"  class="text-zinc-600 mt-5 text-center max-w-3xl mx-auto">Combining advanced technologies with expert
+        <p data-aos="fade-up" class="text-zinc-600 mt-5 text-center max-w-3xl mx-auto">Combining advanced technologies
+            with expert
             knowledge for comprehensive, proactive defense strategies.
 
         </p>
 
         <div class="flex md:flex-row flex-col md:mt-16 mt-8 items-center justify-center md:gap-10 gap-5">
-            <div data-aos="zoom-in"  class="md:max-w-[50%] w-full">
+            <div data-aos="zoom-in" class="md:max-w-[50%] w-full">
                 <img src="/docs/assets/images/image5.jpg" class="w-full md:min-h-[30rem] rounded-lg object-cover"
                     alt="">
             </div>
-            <div data-aos="fade-up"  class="md:max-w-[50%] w-full">
+            <div data-aos="fade-up" class="md:max-w-[50%] w-full">
                 <h2 class="font-medium md:text-2xl text-xl text-zinc-800">Cross-Industry Recognition</h2>
                 <p class="mt-1.5 text-zinc-700">Proven excellence in safeguarding the most sensative infrastructures
                     with precise, industry-specific strategies.</p>
@@ -463,10 +416,12 @@
 
     <section class="w-full cybersecurity p-5 md:py-28 py-20 md:mt-16 mt-10">
         <div class="max-w-4xl text-center w-full mx-auto">
-            <h2 data-aos="fade-up"  class="text-center leading-tight font-semibold text-3xl md:text-5xl text-zinc-100">Targeted Risk
+            <h2 data-aos="fade-up" class="text-center leading-tight font-semibold text-3xl md:text-5xl text-zinc-100">
+                Targeted Risk
                 Assessment
             </h2>
-            <p data-aos="fade-up"  class="text-zinc-300 text-lg mt-4">Accurate insights highlight genuine threats and minimize false
+            <p data-aos="fade-up" class="text-zinc-300 text-lg mt-4">Accurate insights highlight genuine threats and
+                minimize false
                 positives.
                 Our detailed reports focus on relevant vulnerabilities, ensuring effective remediation and supporting
                 secure, scalable application development.
@@ -475,6 +430,7 @@
     </section>
 
     <div class="md:mt-10 mt-5" id="footer"></div>
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

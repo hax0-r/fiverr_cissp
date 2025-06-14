@@ -3,12 +3,10 @@ footer.innerHTML = `
     <footer class="px-5 pt-14 md:pt-20 bg-[#fff]">
         <div class="max-w-7xl w-full mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-20 gap-10 ">
             <div class="w-full">
-                <h2 data-aos="fade-up" class="font-medium text-2xl  mb-3 text-zinc-800">About Us
-                </h2>
-                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600 mt-5 text-sm">Lorem ipsum dolor, sit
+                <img src="/docs/assets/images/whiteLogo.png" alt="" class="invert md:h-28 h-24">
+                <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600  mt-5 text-sm">Lorem ipsum dolor, sit
                     amet
-                    consectetur adipisicing elit. Laborum dignissimos, amet aut laudantium laboriosam praesentium
-                    aliquam sed? Maiores quo nesciunt corporis pariatur, accusamus id unde fugiat enim nulla, porro rem?
+                    consectetur adipisicing elit. Laborum dignissimos, amet aut laudantium nulla, porro rem?
                 </p>
             </div>
 
@@ -19,17 +17,16 @@ footer.innerHTML = `
                         <li><a id="nav-home" href="/index.html"
                                 class="hover:text-[#000] transition-all duration-500">Home</a>
                         </li>
-                        <li><a id="nav-story" href="#"
-                                class="hover:text-[#000] transition-all duration-500">About </a></li>
+                        <li><a id="nav-story" href="#" class="hover:text-[#000] transition-all duration-500">About </a>
+                        </li>
                         <li><a id="nav-gallery" href="#"
                                 class="hover:text-[#000] transition-all duration-500">Videos</a></li>
                         <li><a id="nav-hours" href="#"
                                 class="hover:text-[#000] transition-all duration-500">Services</a>
                         </li>
-                        <li><a id="nav-menu" href="#"
+                        <li><a id="nav-menu" href=""
                                 class="hover:text-[#000] transition-all duration-500">Inquiries</a></li>
-                        <li><a id="nav-events" href="#"
-                                class="hover:text-[#000] transition-all duration-500">Blog</a>
+                        <li><a id="nav-events" href="/blog.html" class="hover:text-[#000] transition-all duration-500">Blog</a>
                         </li>
                     </ul>
                 </div>
