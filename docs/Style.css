@@ -40,6 +40,14 @@ input:user-invalid {
     background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(/docs/assets/images/bg.jpg) center/cover no-repeat;
 }
 
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(/docs/assets/images/about.jpg) center/cover no-repeat;
+}
+
+.services {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.76)), url(/docs/assets/images/services.jpeg) center/cover no-repeat;
+}
+
 .cybersecurity {
     background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)), url(/docs/assets/images/image1.jpg) center/cover no-repeat;
     background-attachment: fixed;

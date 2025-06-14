@@ -3,7 +3,7 @@ footer.innerHTML = `
     <footer class="px-5 pt-14 md:pt-20 bg-[#fff]">
         <div class="max-w-7xl w-full mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 md:gap-20 gap-10 ">
             <div class="w-full">
-                <img src="/docs/assets/images/whiteLogo.png" alt="" class="invert md:h-28 h-24">
+                <img data-aos="fade-up" src="/docs/assets/images/whiteLogo.png" alt="" class="invert md:h-28 h-24">
                 <p data-aos="fade-up" data-aos-delay="100" class="text-zinc-600  mt-5 text-sm">Lorem ipsum dolor, sit
                     amet
                     consectetur adipisicing elit. Laborum dignissimos, amet aut laudantium nulla, porro rem?
@@ -17,11 +17,11 @@ footer.innerHTML = `
                         <li><a id="nav-home" href="/index.html"
                                 class="hover:text-[#000] transition-all duration-500">Home</a>
                         </li>
-                        <li><a id="nav-story" href="#" class="hover:text-[#000] transition-all duration-500">About </a>
+                        <li><a id="nav-story" href="/about.html" class="hover:text-[#000] transition-all duration-500">About </a>
                         </li>
-                        <li><a id="nav-gallery" href="#"
+                        <li><a id="nav-gallery" href="/video.html"
                                 class="hover:text-[#000] transition-all duration-500">Videos</a></li>
-                        <li><a id="nav-hours" href="#"
+                         <li><a id="nav-hours" href="/services.html"
                                 class="hover:text-[#000] transition-all duration-500">Services</a>
                         </li>
                         <li><a id="nav-menu" href=""
