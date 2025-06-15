@@ -9,19 +9,22 @@ navbar.innerHTML=`
             <div class="flex items-center gap-10">
                 <div class="lg:flex items-center gap-10 hidden">
                     <ul id="navbarLinks" data-aos="fade-left" class="lg:flex hidden items-center text-zinc-300 gap-10">
-                        <li><a id="nav-home" href="/index.html"
+                        <li><a href="/index.html"
                                 class="hover:text-[#fff] navUnderLine  transition-all duration-500">Home</a>
                         </li>
-                        <li><a id="nav-story" href="/about.html"
+                        <li><a href="/about.html"
                                 class="hover:text-[#fff] navUnderLine transition-all duration-500">About </a></li>
-                        <li><a id="nav-gallery" href="/video.html"
+                        <li><a href="/video.html"
                                 class="hover:text-[#fff] navUnderLine transition-all duration-500">Videos</a></li>
-                        <li><a id="nav-hours" href="/services.html"
+                        <li><a href="/services.html"
                                 class="hover:text-[#fff] navUnderLine transition-all duration-500">Services</a>
                         </li>
-                        <li><a id="nav-menu" href="#"
+                        <li><a href="/inquiries.html"
                                 class="hover:text-[#fff] navUnderLine transition-all duration-500">Inquiries</a></li>
-                        <li><a id="nav-events" href="/blog.html"
+                                <li><a href="/industries.html"
+                                        class="hover:text-[#fff] navUnderLine transition-all duration-500">Industries</a>
+                                </li>
+                        <li><a href="/blog.html"
                                 class="hover:text-[#fff] navUnderLine transition-all duration-500">Blog</a>
                         </li>
                     </ul>
@@ -38,15 +41,17 @@ navbar.innerHTML=`
         </div>
         <div class="p-6">
             <ul class="flex relative z-50 text-zinc-800 flex-col gap-7">
-                <li><a id="nav-home" href="/index.html" class="hover:text-[#000] transition-all duration-500">Home</a>
+                <li><a href="/index.html" class="hover:text-[#000] transition-all duration-500">Home</a>
                 </li>
-                <li><a id="nav-story" href="/about.html" class="hover:text-[#000] transition-all duration-500">About
+                <li><a href="/about.html" class="hover:text-[#000] transition-all duration-500">About
                     </a></li>
-                <li><a id="nav-gallery" href="/video.html" class="hover:text-[#000] transition-all duration-500">Videos</a></li>
-                <li><a id="nav-hours" href="/services.html" class="hover:text-[#000] transition-all duration-500">Services</a>
+                <li><a href="/video.html" class="hover:text-[#000] transition-all duration-500">Videos</a></li>
+                <li><a href="/services.html" class="hover:text-[#000] transition-all duration-500">Services</a>
                 </li>
-                <li><a id="nav-menu" href="#" class="hover:text-[#000] transition-all duration-500">Inquiries</a></li>
-                <li><a id="nav-events" href="/blog.html" class="hover:text-[#000] transition-all duration-500">Blog</a>
+                <li><a href="/inquiries.html" class="hover:text-[#000] transition-all duration-500">Inquiries</a></li>
+                <li><a href="/industries.html" class="hover:text-[#000] transition-all duration-500">Industries</a>
+                </li>
+                <li><a href="/blog.html" class="hover:text-[#000] transition-all duration-500">Blog</a>
                 </li>
             </ul>
         </div>

@@ -48,6 +48,14 @@ input:user-invalid {
     background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.76)), url(/docs/assets/images/services.jpeg) center/cover no-repeat;
 }
 
+.industry {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.76)), url(/docs/assets/images/industry.jpg) center/cover no-repeat;
+}
+
+.videos {
+    background: linear-gradient(rgba(0, 0, 0, 0.733), rgba(0, 0, 0, 0.76)), url(/docs/assets/images/videos.jpg) center/cover no-repeat;
+}
+
 .cybersecurity {
     background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)), url(/docs/assets/images/image1.jpg) center/cover no-repeat;
     background-attachment: fixed;
