@@ -30,7 +30,7 @@ navbar.innerHTML=`
                     </ul>
                 </div>
             </div>
-            <i id="mobileMenuBtn" class="fa-solid text-zinc-100 fa-bars lg:!hidden text-2xl cursor-pointer mr-2"></i>
+            <i id="mobileMenuBtn" data-aos="fade-left" class="fa-solid text-zinc-100 fa-bars lg:!hidden text-2xl cursor-pointer mr-2"></i>
         </div>
     </nav>
 
