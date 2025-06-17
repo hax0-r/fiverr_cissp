@@ -32,7 +32,12 @@
         <h2 data-aos="fade-up" class="text-center font-semibold text-3xl md:text-4xl text-zinc-900">Inquiries</h2>
         <p data-aos="fade-up" class="text-gray-600 mt-4 text-center">Need help? Have a question? Reach out!</p>
         <section class="max-w-7xl w-full mx-auto md:mt-16 mt-10 p-5">
-            <form data-aos="fade-up" action="" class="grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-5 md:gap-y-14">
+            <form data-aos="fade-up" action="https://api.web3forms.com/submit" method="POST"
+                class="grid md:grid-cols-2 grid-cols-1 md:gap-10 gap-5 md:gap-y-14">
+                <!-- Access Key -->
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                 <input required type="text" name="name" class="w-full py-3 border-b-2 border-zinc-300"
                     placeholder="Enter Name">
                 <input required type="email" name="email" class="w-full py-3 border-b-2 border-zinc-300"
@@ -46,7 +51,10 @@
                 <button
                     class="bg-[#10243b] w-full text-center rounded-lg transition-all duration-500 hover:opacity-80 cursor-pointer text-white md:col-span-2 p-3.5">Submit</button>
             </form>
-
+            <div id="success-message"
+                class="hidden fadeIn text-green-600 text-center md:col-span-2 bg-green-100 border border-green-300 rounded-lg p-3 mt-4">
+                Your message has been successfully sent!
+            </div>
         </section>
 
     </section>
@@ -66,6 +74,37 @@
     <script src="./docs/javascript/global.js"></script>
     <script src="./docs/javascript/navbar.js"></script>
     <script src="./docs/javascript/footer.js"></script>
+    <script>
+        const form = document.querySelector("form");
+        const successMessage = document.getElementById("success-message");
+
+        form.addEventListener("submit", async function (e) {
+            e.preventDefault();
+
+            const formData = new FormData(form);
+
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            });
+
+            if (response.ok) {
+                form.reset(); // Reset form fields
+                successMessage.classList.remove("hidden");
+                successMessage.scrollIntoView({ behavior: "smooth" });
+
+                // Optionally hide message after a few seconds
+                setTimeout(() => {
+                    successMessage.classList.add("hidden");
+                }, 5000);
+            } else {
+                alert("There was a problem submitting the form. Please try again.");
+            }
+        });
+    </script>
 </body>
 
 </html>
